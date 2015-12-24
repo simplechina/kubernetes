@@ -12,7 +12,7 @@ TAG = 1.5.1_v2
 
 # To bump the Zeppelin version, bump the version in
 # zeppelin/Dockerfile and bump this tag and reset to v1.
-ZEPPELIN_TAG = v0.5.5_v3
+ZEPPELIN_TAG = v0.5.5_v2
 
 spark:
 	docker build -t gcr.io/google_containers/spark-base base
